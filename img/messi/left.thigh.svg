@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="1253.8 0 52.5 100" enable-background="new 1253.8 0 52.5 100" xml:space="preserve">
+<g id="left_arm" display="none">
+	<path display="inline" fill="#FFCC80" d="M1272.6-35.2l-17.7,47.3c-2.8,7.4-11,11.1-18.3,8.4l0,0c-7.4-2.8-11.1-11-8.4-18.4
+		l17.7-47.3c2.8-7.4,11-11.1,18.3-8.4l0,0C1271.6-50.8,1275.4-42.6,1272.6-35.2z"/>
+</g>
+<g id="left_forearm" display="none">
+</g>
+<g id="left_thigh" display="none">
+	<path display="inline" fill="#1A237E" d="M1232.4,63.3L1221.3,12l37.1-8.1c14.2-3.1,28.1,5.9,31.2,20.1l0,0
+		c3.1,14.2-5.9,28.1-20.1,31.2L1232.4,63.3z"/>
+</g>
+<g id="left_shin" display="none">
+</g>
+<g id="left_foot" display="none">
+</g>
+<g id="head" display="none">
+</g>
+<g id="body" display="none">
+	<path display="inline" fill="#303F9F" d="M1328.3-28.4c-2.1,12.8-8.2,27.2-15.1,41c-1.9,3.9-3.9,8-6,12
+		c-14.4,28.1-32.6,54.9-71.4,25.1c-39.4-30.3,3.2-54.3,24.4-82c19.8-25.9,32-34.5,42.3-34.5c2.3,0,4.6,0.5,6.8,1.4
+		c2.4,0.9,4.6,2,6.5,3.2c2.7,1.7,4.8,3.5,6.7,5.6c3.9,4.5,5.9,9.9,6.4,15.9C1329.2-36.9,1329-32.7,1328.3-28.4z"/>
+	<path display="inline" fill="#FF5252" d="M1315.8-62.4l-46.7,64.6l-10.9-7.9l33.2-45.9c0,0,17.1-14.2,17.9-13.9
+		C1311.8-64.6,1314-63.5,1315.8-62.4z"/>
+	<path display="inline" fill="#FF5252" d="M1328.9-40.9l-34,59.1l-11.7-6.7l39.3-68.3C1326.4-52.3,1328.3-46.9,1328.9-40.9z"/>
+	<path display="inline" fill="#FF5252" d="M1328.3-28.4c-2.1,12.8-8.2,27.2-15.1,41c-1.9,3.9-3.9,8-6,12l-4.1-2L1328.3-28.4z"/>
+</g>
+<g id="right_thigh">
+	<path fill="#FFCC80" d="M1280.5,100L1280.5,100c-10.7,0-19.4-8.7-19.4-19.4V63.2c0-10.7,8.7-19.4,19.4-19.4l0,0
+		c10.7,0,19.4,8.7,19.4,19.4v17.4C1300,91.3,1291.3,100,1280.5,100z"/>
+	<path fill="#1A237E" d="M1306.2,63.5h-52.5V26.2c0-14.5,11.7-26.2,26.2-26.2l0,0c14.5,0,26.2,11.7,26.2,26.2V63.5z"/>
+</g>
+<g id="right_shin" display="none">
+</g>
+<g id="right_foot" display="none">
+</g>
+<g id="right_arm" display="none">
+</g>
+<g id="right_forearm" display="none">
+	<path display="inline" fill="#FFE0B2" d="M1248,26.6v-41.8c0-8.3,6.8-15.1,15.1-15.1l0,0c8.3,0,15.1,6.8,15.1,15.1v41.8
+		c0,8.3-6.8,15.1-15.1,15.1l0,0C1254.7,41.6,1248,34.9,1248,26.6z"/>
+	<path display="inline" fill="#3F51B5" d="M1244.7,15v-32.4c0-10.1,8.2-18.3,18.3-18.3l0,0c10.1,0,18.3,8.2,18.3,18.3V15H1244.7z"/>
+</g>
+</svg>

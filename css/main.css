@@ -1,0 +1,589 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@-webkit-keyframes banners,
+@-moz-keyframes banners,
+@-o-keyframes banners,
+@keyframes banners {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 200% 0;
+    }
+}
+
+@-webkit-keyframes crowd01 {
+    from {
+        left: 100vw;
+    }
+    to {
+        left: -100vw;
+    }
+}
+
+@-webkit-keyframes crowd02 {
+    from {
+        left: 0;
+    }
+    49.99% {
+        left: -100vw;
+    }
+    50% {
+        left: 100vw;
+    }
+    to {
+        left: 0vw;
+    }
+}
+
+@-webkit-keyframes messi,
+@-moz-keyframes messi,
+@-o-keyframes messi,
+@keyframes messi  {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-10vmin);
+    }
+}
+
+@-webkit-keyframes body {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5vmin);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes shadow {
+    from {
+        transform: scale(0.85);
+        opacity: 0.50;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.85);
+        opacity: 0.50;
+    }
+}
+
+@-webkit-keyframes head {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+    50% {
+        transform: translateY(10px) rotate(10deg);
+    }
+    to {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+@-webkit-keyframes thigh {
+    from {
+        transform: rotate(-60deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(-60deg);
+    }
+}
+
+@-webkit-keyframes shin {
+    from {
+        transform: rotate(90deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    75% {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@-webkit-keyframes foot {
+    from {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes forearm {
+    from {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(-45deg);
+    }
+}
+
+@-webkit-keyframes arm {
+    from {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(-90deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1080deg);
+    }
+}
+
+@-webkit-keyframes slide {
+    from {
+        left: 35vmin;
+    }
+    to {
+        left: 94vmin;
+    }
+}
+
+.has-shadow:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 10%;
+    z-index: -1;
+    height: 4px;
+    width: 80%;
+    background-color: rgba(0,0,0, 0.25);
+    border-radius: 50%;
+}
+
+main {
+    background-color: #7fd7ff;
+}
+
+object {
+    display: block;
+    position: absolute;
+}
+
+animation {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+layer {
+    display: block;
+    position: absolute;
+}
+
+.crowd {
+    bottom: 20vmin;
+    height: 50vmin;
+    width: 100vw;
+    background: url('../img/crowd.png') bottom left repeat-x;
+    background-size: 50%;
+    transform: translate3d(0,0,0);
+    -webkit-animation-duration: 4.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+#crowd01 {
+    -webkit-animation-name: crowd01;
+}
+
+#crowd02 {
+    -webkit-animation-name: crowd02;
+}
+
+#banners {
+    left: 0;
+    bottom: 100px;
+    height: 100px;
+    width: 100%;
+    background: url('../img/banners.png') repeat-x;
+    background-size: auto;
+    -webkit-animation: banners 1.2s infinite linear;
+    transform: translate3d(0,0,0);
+}
+
+#grass {
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    height: 20vmin;
+    width: 100%;
+    background-color: #aed581;
+}
+
+#messi {
+    left: 20vmin;
+    bottom: 10vmin;
+    height: 30vmin;
+    width: 30vmin;
+    transform: scale(1);
+    -webkit-animation: messi 0.8s infinite ease-in-out;
+    -webkit-animation-direction: alternate;
+} #messi:after {
+    -webkit-animation: shadow 0.4s infinite ease-in-out;
+}
+
+#messi animation {
+    -webkit-animation: body 0.4s infinite ease-in-out;
+    -webkit-animation-delay: 0.2s;
+}
+
+#body {
+    top: 28%;
+    left: 30%;
+    height: 40%;
+    width: 40%;
+    background: url('../img/messi/body.svg') center center no-repeat;
+}
+
+.thigh {
+    top: 68%;
+    left: 16%;
+    height: 80%;
+    width: 40%;
+    transform-origin: center top;
+    -webkit-animation: thigh 0.8s infinite ease-in-out;
+}
+
+.shin {
+    top: 50%;
+    left: 12%;
+    height: 100%;
+    width: 75%;
+    transform-origin: center 30%;
+    -webkit-animation: shin 0.8s infinite ease-in-out;
+}
+
+.foot {
+    top: 60%;
+    left: -10%;
+    height: 40%;
+    width: 200%;/*
+    -webkit-animation: foot 0.8s infinite linear;*/
+}
+
+.forearm {
+    top: 5%;
+    left: 48%;
+    height: 60%;
+    width: 50%;
+    -webkit-animation: forearm 0.8s infinite ease-in-out;
+}
+
+.arm {
+    top: 64%;
+    left: 1%;
+    height: 100%;
+    width: 100%;
+    transform-origin: center 20%;
+    -webkit-animation: arm 0.8s infinite ease-in-out;
+}
+
+#left-forearm {
+    z-index: -3;
+    background: url('../img/messi/left.forearm.svg') center center no-repeat;
+    transform-origin: center 25%;
+}
+
+#left-arm {
+    background: url('../img/messi/left.arm.svg') center center no-repeat;
+}
+
+#left-thigh {
+    z-index: -2;
+    background: url('../img/messi/left.thigh.svg') center center no-repeat;
+    -webkit-animation-delay: 0.4s;
+    transform-origin: center top;
+}
+
+#left-shin {
+    background: url('../img/messi/left.shin.svg') center center no-repeat;
+    -webkit-animation-delay: 0.4s;
+}
+
+#left-foot {
+    background: url('../img/messi/left.foot.svg') center center no-repeat;
+    -webkit-animation-delay: 0.4s;
+}
+
+#head {
+    top: -78%;
+    left: 42%;
+    z-index: -1;
+    height: 110%;
+    width: 130%;
+    background: url('../img/mario/06.head.svg') center center no-repeat;
+    -webkit-animation: head 0.4s infinite ease-in-out;
+}
+
+#right-thigh {
+    background: url('../img/messi/right.thigh.svg') center center no-repeat;
+}
+
+#right-shin {
+    background: url('../img/messi/right.shin.svg') center center no-repeat;
+}
+
+#right-foot {
+    background: url('../img/messi/right.foot.svg') center center no-repeat;
+}
+
+#right-forearm {
+    background: url('../img/messi/right.forearm.svg') center center no-repeat;
+    transform-origin: center 25%;
+    -webkit-animation-delay: 0.4s;
+}
+
+#right-arm {
+    background: url('../img/messi/right.arm.svg') center center no-repeat;
+    -webkit-animation-delay: 0.4s;
+}
+
+#ball {
+    left: 40vmin;
+    bottom: 10vmin;
+    height: 6vmin;
+    width: 6vmin;
+    -webkit-animation: slide 0.8s infinite ease-out;
+    -webkit-animation-direction: alternate;
+}
+
+#ball animation {
+    height: 100%;
+    width: 100%;
+    -webkit-animation: spin 0.8s infinite linear;
+}
+
+#ball-spin {
+    height: 100%;
+    width: 100%;
+    background: url('../img/ball.svg') center center no-repeat;
+    -webkit-animation: spin 1.6s infinite ease-out;
+}
+    
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
